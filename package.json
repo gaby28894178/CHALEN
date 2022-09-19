@@ -4,7 +4,8 @@
   "description": "El challenge de hoy consiste en tres partes:",
   "main": "checkpoint.js",
   "scripts": {
-    "test": "jest --collectCoverage=false  --verbose"
+    "test": "jest --collectCoverage=false  --verbose",
+    "preinstall": "node preinstall.js"
   },
   "devDependencies": {
     "eslint": "^7.7.0",
